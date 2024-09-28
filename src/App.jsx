@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header.jsx';
 import Aside from './components/Aside.jsx';
-import Logo from '../assets/imagenes/logo.jpg'
+//import Logo from '../assets/imagenes/logo.jpg'
 
 import Footer from './components/Footer.jsx';
 
