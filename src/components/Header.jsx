@@ -1,17 +1,13 @@
 import React from 'react';
 import '../assets/estilos/Header.css';
 
-const Header = () => {
+const Header = ({ logo, title }) => {
   return (
     <header>
-      <img src="tu-logo.png" alt="Logo de tu sitio web" />
-      <h1>Mi Increíble Sitio Web</h1>
+      <img src={logo} alt="" />
+      <h1>{title}</h1>
       <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
+        {/* ... resto del código */}
       </nav>
     </header>
   );
