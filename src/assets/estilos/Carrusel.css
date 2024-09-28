@@ -1,0 +1,32 @@
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* Esto asegura que la imagen llene todo el contenedor */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .carousel .prev {
+    left: 10px; /* Ajusta la posición izquierda según sea necesario */
+  }
+  
+  .carousel .next {
+    right: 5px; /* Ajusta la posición derecha según sea necesario */
+  }

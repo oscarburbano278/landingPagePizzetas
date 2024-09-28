@@ -1,0 +1,17 @@
+aside {
+    background-color: #0a0808;
+    padding: 20px;
+  }
+  
+  aside h2 {
+    text-align: center;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside li {
+    margin-bottom: 10px;
+  }

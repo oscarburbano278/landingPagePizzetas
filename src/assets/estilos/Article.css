@@ -1,0 +1,12 @@
+article {
+    background-color: #811b1b;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  article img {
+    max-width: 100%;
+    height: auto;
+  }
